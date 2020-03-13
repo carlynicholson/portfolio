@@ -1,0 +1,244 @@
+@media screen and (min-width: 769px) {
+  ul li {
+    float: right;
+    color: black;
+    font-family: "Quicksand";
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+
+@media (min-width: 627px) and (max-width: 768px) {
+  a.resToggle { 
+    display: block;
+    float: right;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .myTopNav {
+    display: none;
+    width: 100%;
+  }
+    .active {
+      display: block;
+    }
+
+      h1 {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 19px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        display: inline;
+        }
+      
+      h1 > a {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 19px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-decoration: none;
+        display: inline;
+        }
+
+      li > a:-webkit-any-link {
+        display: inline-block;
+        color: black;
+        font-family: "Quicksand";
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+
+}
+
+
+@media (min-width: 614px) and (max-width: 626px) {
+  li > a:-webkit-any-link {
+    display: inline-block;
+    color: black;
+    font-family: "Quicksand";
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  h1 {
+    color: black;
+    font-family: "Slabo 27px";
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    display: inline;
+    padding-left: 10px;
+    }
+  
+  h1 > a {
+    color: black;
+    font-family: "Slabo 27px";
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+    }
+
+    a.resToggle { 
+      display: block;
+      float: right;
+      padding-right: 20px;
+      padding-top: 4px;
+      font-size: 18px;
+      color: black;
+      text-decoration: none;
+    }
+
+}
+
+
+    @media (min-width: 250px) and (max-width: 613px) {
+      h1 {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        display: inline;
+        padding-left: 10px;
+        }
+      
+      h1 > a {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-decoration: none;
+        display: inline;
+        padding-left: 10px;
+        }
+    
+        a.resToggle { 
+          float: right;
+          padding-top: 3px;
+          padding-right: 10px;
+          font-size: 18px;
+          color: black;
+          text-decoration: none;
+        }
+    
+        li {
+          /* display: block; */
+          float: right;
+          color: black;
+          font-family: "Quicksand";
+          font-size: 12px;
+          padding-right: 2px;
+          padding-bottom: 10px;
+        }
+    
+        li > a:-webkit-any-link {
+          display: inline-block;
+          color: black;
+          font-family: "Quicksand";
+          font-size: 12px;
+          text-decoration: none;
+        } 
+    
+        .more-btn {
+          font-family: "Quicksand";
+          font-weight: medium;
+          font-size: 14px;
+          letter-spacing: 1px;
+          border: 1px solid black;
+          color: black;
+          text-align: center;
+          width: 40%;
+          padding-top: 0.5rem;
+          padding-bottom: 0.6rem;
+          padding-left: 0.35rem;
+          padding-right: 0.35rem;
+        }
+    }
+   
+   
+    @media (min-width: 10px) and (max-width: 250px) {
+      h1 {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        display: inline;
+        padding-left: 10px;
+        }
+      
+      h1 > a {
+        color: black;
+        font-family: "Slabo 27px";
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-decoration: none;
+        display: inline;
+        padding-left: 10px;
+        }
+    
+        a.resToggle { 
+          float: right;
+          padding-top: 3px;
+          padding-right: 10px;
+          font-size: 18px;
+          color: black;
+          text-decoration: none;
+        }
+    
+        li {
+          /* display: block; */
+          float: right;
+          color: black;
+          font-family: "Quicksand";
+          font-size: 12px;
+          padding-right: 2px;
+          padding-bottom: 10px;
+        }
+    
+        li > a:-webkit-any-link {
+          display: inline-block;
+          color: black;
+          font-family: "Quicksand";
+          font-size: 12px;
+          text-decoration: none;
+        } 
+    
+        .more-btn {
+          font-family: "Quicksand";
+          font-weight: medium;
+          font-size: 14px;
+          letter-spacing: 1px;
+          border: 1px solid black;
+          color: black;
+          text-align: center;
+          width: 70%;
+          padding-top: 0.5rem;
+          padding-bottom: 0.6rem;
+          padding-left: 0.35rem;
+          padding-right: 0.35rem;
+        }
+}

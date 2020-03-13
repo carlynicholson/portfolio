@@ -1,0 +1,98 @@
+/* CARDS */
+
+.card-btn {
+  font-family: "Quicksand";
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  width: 45%;
+  padding: 0.5rem;
+  margin-top: -17px;
+  font-size: 15px;
+  letter-spacing: 1.8px;
+}
+
+.btn-block {
+  display: inline;
+}
+
+.card-body {
+  padding-top: 24px;
+}
+
+.deck {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  background-color: white;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  /* adjust the width of the card here */
+  width: 250px;
+  justify-content: flex-start;
+  transform: rotate(0);
+  margin-bottom: 24px;
+}
+
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+#image-1 {
+  background-image: url("https://unsplash.it/800/600?image=59");
+}
+
+.card-image:hover {
+  filter: opacity(85%);
+  z-index: -100;
+  cursor: pointer;
+}
+
+.card-title {
+  font-family: "Quicksand";
+  color: black;
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .deck {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

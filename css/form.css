@@ -1,0 +1,117 @@
+.contact-container {
+    font-family: 'Roboto';
+    width: 600px;
+    margin: 30px auto 0;
+    display: block;
+    background: #f2f2f2;
+    padding: 10px 50px 50px;
+  }
+  /* form starting stylings ------------------------------- */
+  .contact-container .group {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  .contact-container input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  .contact-container input:focus {
+    outline: none;
+  }
+  /* LABEL ======================================= */
+  .contact-container label {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  /* active state */
+  .contact-container input:focus ~ label,
+  .contact-container input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264ae;
+  }
+  /* BOTTOM BARS ================================= */
+  .contact-container .bar {
+    position: relative;
+    display: block;
+    width: 300px;
+  }
+  .contact-container .bar:before,
+  .contact-container .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264ae;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  .contact-container .bar:before {
+    left: 50%;
+  }
+  .contact-container .bar:after {
+    right: 50%;
+  }
+  /* active state */
+  .contact-container input:focus ~ .bar:before,
+  .contact-container input:focus ~ .bar:after {
+    width: 50%;
+  }
+  /* HIGHLIGHTER ================================== */
+  .contact-container .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  /* active state */
+  .contact-container input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+  }
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+  @-moz-keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+  @keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }

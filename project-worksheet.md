@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -20,21 +20,42 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+My final project will have a navigation bar at the top with my name to the far left and menu items to the right. The nav will have links to an about page and a portfolio page, as well as an anchor tag/link to the contact form at the bottom of the home page. There will be a cards section displaying my most recent projects.
+
+Contact form idea(s)/example(s):
+- https://res.cloudinary.com/df6sigxz7/image/upload/v1583765045/u01-p01/ideas%20%2B%20examples/Contact.png
+- https://res.cloudinary.com/df6sigxz7/image/upload/v1583765044/u01-p01/ideas%20%2B%20examples/Contact_BBK.png
+
+Card idea(s)/example(s):
+- https://res.cloudinary.com/df6sigxz7/image/upload/v1583765573/u01-p01/ideas%20%2B%20examples/cards_BBK.png
+
+About page idea(s)/example(s):
+- https://res.cloudinary.com/df6sigxz7/image/upload/v1583765881/u01-p01/ideas%20%2B%20examples/about_bbk.png
+
+Site refs:
+https://www.wix.com/website-template/view/html/1995?siteId=a51d32ee-c2eb-494c-86b9-0d1c722f9f85&metaSiteId=16dcad0e-953b-4c09-ae4a-2abc30d21d17&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates
+
+https://www.wix.com/website-template/view/html/2282?siteId=7a0cab33-ea91-4ef7-90f1-37efe8e1dc9b&metaSiteId=a23e8e18-4a99-4d8b-adff-b45ac27a9d92&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates
+
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page. 
+
+Home: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/home.png
+
+Portfolio: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/portfolio.png
+
+About: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/about.png
 
 ## Time/Priority Matrix 
 
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
+https://res.cloudinary.com/df6sigxz7/image/upload/v1583869560/u01-p01/ideas%20%2B%20examples/priority_matrix.png
 
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
+TOTAL TIME: 12hr
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
@@ -42,16 +63,16 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Pull projects using Google JSON API
+- Mobile-responsive
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Mask email address in links to avoid phishing//bots
+- About page
+- Skills section on About page
 
 ## Functional Components
 
@@ -66,7 +87,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ [Bootstrap](https://getbootstrap.com/) for functionality 
 
 ## Code Snippet
 

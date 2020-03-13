@@ -1,0 +1,233 @@
+* {
+    margin: 0 auto;
+  }
+  
+  *, *:after, *:before {
+    box-sizing: border-box;
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .myTopNav {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    float: right;
+    color: black;
+    font-family: "Quicksand";
+  }
+  
+  li > a:-webkit-any-link {
+    float: right;
+    color: black;
+    font-family: "Quicksand";
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  li > a:hover:-webkit-any-link {
+    float: right;
+    color: black;
+    font-family: "Quicksand";
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  div.logo {
+    padding-top: 7px;
+    padding-bottom: 6px;
+    width: 30%;
+    float: left;
+  }  
+  
+  .the-header {
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: black;
+    font-family: "Slabo 27px";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    display: inline;
+    }
+  
+  h1 > a {
+    color: black;
+    font-family: "Slabo 27px";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline;
+    }
+  
+    a.resToggle { 
+      display: none;
+    }
+    .myTopNav {
+      padding-bottom: 10px;
+    }
+    
+      li {
+        display: inline-block;
+      }
+       li > a {
+          display: inline-block;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+  
+  .align-center {
+    text-align: center;
+  }
+
+ h3 {
+    font-family: "Quicksand";
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 25px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+  
+  p > .about {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: lighter;
+    color: black;
+    text-align: left;
+    line-height: 1.8em;
+  }
+
+  .about-container {
+    margin: 0;
+    background-color: #f2f2f2;
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    margin-right: 25px;
+    margin-bottom: 300px;
+    height:300px;
+  }
+  
+  .about-item {
+    height: 100%;
+  }
+
+  .about-photo {
+    padding-top: 25px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 7;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+  
+  .about-header {
+    grid-column: 3 / 6;
+    grid-row: 1;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 37px;
+    letter-spacing: 3px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  
+  .about {
+    grid-column: 3 / 6;
+    grid-row: 2 / 5;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    font-weight: 350;
+    padding-top: 7px;
+  }
+
+  .about > a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .about > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .about > a:visited {
+    color: black;
+  }
+
+  .contact-icons {
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+    margin: 0;
+    align-self: center;
+    padding-bottom: 20px;
+  }
+
+  .icon-social-github {
+    margin-right: 10px;
+  }
+
+  .contact-icons > a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .contact-icons > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .contact-icons > a:visited {
+    color: black;
+  }
+
+
+  .skills {
+    background: white;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
