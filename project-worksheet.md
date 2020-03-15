@@ -10,9 +10,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -45,19 +45,19 @@ https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxian
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page. 
 
-Home: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/home.png
+Home: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/home.png
 
-Portfolio: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/portfolio.png
+Portfolio: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/portfolio.png
 
-About: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/u01-p01/ideas%20%2B%20examples/about.png
+About: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/about.png
 
 ## Time/Priority Matrix 
 
-https://res.cloudinary.com/df6sigxz7/image/upload/v1583869560/u01-p01/ideas%20%2B%20examples/priority_matrix.png
+https://res.cloudinary.com/df6sigxz7/image/upload/v1583869560/portfolio/project%20worksheet/priority_matrix.png
 
-TOTAL TIME: 12hr
+TOTAL TIME: 35hr
 
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
 
 ### MVP/PostMVP - 5min
 
@@ -71,8 +71,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP 
 
 - Mask email address in links to avoid phishing//bots
-- About page
 - Skills section on About page
+- Contact form
 
 ## Functional Components
 
