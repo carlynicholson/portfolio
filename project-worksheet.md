@@ -55,7 +55,7 @@ https://res.cloudinary.com/df6sigxz7/image/upload/v1583869560/portfolio/project%
 
 TOTAL TIME: 35hr
 
-### MVP/PostMVP - 5min 
+### MVP/PostMVP
 
 #### MVP
 
@@ -105,3 +105,5 @@ fetch(source)
 ```
 
 This code snippet was used to pull in my projects from a Google Sheet.
+
+## [Resources](/resources.md)
