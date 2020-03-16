@@ -35,3 +35,6 @@ fetch(source)
             $($content).append($title, $text)       
      }
  }
+
+.then(cardsArr => cardsArr.join(' '))
+.then(string => $("ul.deck").append(string))
