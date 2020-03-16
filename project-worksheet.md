@@ -43,8 +43,6 @@ https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxian
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page. 
-
 Home: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/home.png
 
 Portfolio: https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/portfolio.png
@@ -57,11 +55,7 @@ https://res.cloudinary.com/df6sigxz7/image/upload/v1583869560/portfolio/project%
 
 TOTAL TIME: 35hr
 
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP - 5min 
 
 #### MVP
 
