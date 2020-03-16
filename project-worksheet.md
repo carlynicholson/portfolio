@@ -70,15 +70,11 @@ TOTAL TIME: 35hr
 
 ## Functional Components
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Responsiveness | H | 2hrs| 3hrs | 3hrs |
+| Working with API | H | 4hrs| 3hrs | 3hrs |
+| Total | H | 6hrs| 6hrs | 6hrs |
 
 ## Additional Libraries
  [Bootstrap](https://getbootstrap.com/) for functionality 
