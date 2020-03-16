@@ -1,11 +1,11 @@
 $(".resToggle").click(function() {
   $(".myTopNav").toggleClass("active");
 });
-
 let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
 let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
 // let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
+const isHome = window.location.pathname === "/" || window.location.pathname === "/index.html"
 
 fetch(source)
   .then(response => response.json()) 
@@ -30,18 +30,16 @@ fetch(source)
 </a>`
 )
 )
-/* console.log(window.location.pathname)
-const home = ('/')
-
 .then(arr => {
-  if (window.location.pathname === home) {
-   return (i + 2)
-  
+  if (isHome) {
+console.log("home method")
+console.log(arr.slice(0,3))
+   return arr.slice(0,3)
   } else {
-  
+console.log(`your path is: ${window.location.pathname}`)
     return arr
   }
-  }) */
+  })
 .then(cardsArr => cardsArr.join(' '))
 .then(string => $("ul.deck").append(string))
 
