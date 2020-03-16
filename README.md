@@ -9,6 +9,13 @@ This project was initially assigned during my Software Engineering Immersive (SE
 ## Demo
 Quick demo of site can be found [here](https://youtu.be/nj5F6xH-uhI).
 
+## Wireframes
+[Home](https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/home.png)
+
+[Portfolio](https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/portfolio.png)
+
+[About](https://res.cloudinary.com/df6sigxz7/image/upload/v1583869802/portfolio/project%20worksheet/about.png)
+
 ## Code Snippet
 
 ```

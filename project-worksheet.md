@@ -76,9 +76,6 @@ TOTAL TIME: 35hr
 | Working with API | H | 4hrs| 3hrs | 3hrs |
 | Total | H | 6hrs| 6hrs | 6hrs |
 
-## Additional Libraries
- [Bootstrap](https://getbootstrap.com/) for functionality 
-
 ## Code Snippet
 
 ```
