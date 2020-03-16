@@ -176,7 +176,9 @@ h3 {
   font-size: 19px;
   font-weight: normal;
   letter-spacing: 1px;
-  padding: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 7px;
   margin-bottom: 3px;
   text-align: center;

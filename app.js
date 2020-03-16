@@ -100,30 +100,4 @@ function app(projects) {
     let $text = $("<p>").addClass("card-text").text(`${project.description}`);
   })
 }
-
-const $ul = $("<ul>").addClass("deck");
-    $("deck").append($li);
-
-const $li = $("<li>").addClass("card").url(`${project.url}`);
-    $("card").append($div);
-
-const $div = $("<div>").addClass("card-image").css("background-image", `${project.image}`);
-    $("card-image").append($button);
-
-const $button = $("<button>").addClass("card-btn btn-block").text(`Project ${i}`);
-    $("card-btn btn-block").append($div);
-
-const $div = $("<div>").addClass("card-content");
-    $("card-content").append($div);
-
-const $div = $("<div>").addClass("card-title").text(`${project.title}`);
-    $("card-title").append($p);
-
-const $p = $("<p>").addClass("card-text").text(`${project.description}`);
-*/    
-
-
-
- /* for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-  } */
+*/
