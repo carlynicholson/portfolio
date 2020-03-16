@@ -5,7 +5,7 @@ let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQ
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
 let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
 // let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
-const isHome = window.location.pathname === "/" || window.location.pathname === "/index.html"
+const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
 fetch(source)
   .then(response => response.json()) 
