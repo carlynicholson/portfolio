@@ -48,7 +48,9 @@ This code snippet was used to help pull in my projects from a Google Sheet.
 
 ## Future Plans
 - Move projects into CSS Grid, rather than Flexbox
-- Set only 3 most recent projects on home page
 - Contact Form
 - "Skills" on About page
+- Set favicon
 
+## Issues
+- Set only 3 most recent projects on home page
