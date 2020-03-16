@@ -9,6 +9,36 @@ This project was initially assigned during my Software Engineering Immersive (SE
 ## Demo
 Quick demo of site can be found [here](https://youtu.be/nj5F6xH-uhI).
 
+## Code Snippet
+
+```
+fetch(source)
+  .then(response => response.json()) 
+  .then(data =>  data.feed.entry.map(project => ( {
+          title: project.gsx$title.$t,
+          image: project.gsx$image.$t,
+          description: project.gsx$description.$t,
+          url: project.gsx$url.$t
+            })
+          )
+        )
+  .then(array => array.map((obj, i) => `<a href='${obj.url}' class="project-link"> <li class="card">
+  <div class="card-image" style="background-image: url('${obj.image}');"></div>
+  <button class="card-btn btn-block">Project ${i + 1}</button>
+  <div class="card-content">
+    <div class="card-title">${obj.title}</div>
+    <p class="card-text">
+      ${obj.description}
+    </p>
+  </div>
+</li>
+</a>`
+)
+)
+```
+
+This code snippet was used to help pull in my projects from a Google Sheet.
+
 ## Future Plans
 - Contact Form
 - "Skills" on About page
