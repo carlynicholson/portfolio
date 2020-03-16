@@ -1,7 +1,38 @@
 $(".resToggle").click(function() {
   $(".myTopNav").toggleClass("active");
 });
+let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
+let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
+let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
+// let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
 
+fetch(source)
+  .then(response => response.json()) 
+  .then(data =>  data.feed.entry.map(project => ( {
+          title: project.gsx$title.$t,
+          image: project.gsx$image.$t,
+          description: project.gsx$description.$t,
+          url: project.gsx$url.$t
+            })
+          )
+        )
+  .then(array => array.map((obj, i) => `<a href=“${obj.url}“><li class="card"></a>
+  <div class="card-image" style="background-image: url('${obj.image}');"></div>
+  <button class="card-btn btn-block">Project ${i + 1}</button>
+  <div class="card-content">
+    <div class="card-title">${obj.title}</div>
+    <p class="card-text">
+      ${obj.description}
+    </p>
+  </div>
+</li>`)
+)
+.then(cardsArr => cardsArr.join(' '))
+.then(string => $("ul.deck").append(string))
+
+
+
+/*
 let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
 let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
@@ -41,6 +72,7 @@ function app(projects) {
       $("card-text").append("card-content");
   })
 }
+*/
 
 /*
 function app(projects) {

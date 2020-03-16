@@ -58,9 +58,9 @@
   width: 100%;
 }
 
-#image-1 {
+/* #image-1 {
   background-image: url("https://unsplash.it/800/600?image=59");
-}
+} */
 
 .card-image:hover {
   filter: opacity(85%);
@@ -71,10 +71,12 @@
 .card-title {
   font-family: "Quicksand";
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .card-text {
