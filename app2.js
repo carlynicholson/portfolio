@@ -2,6 +2,7 @@ $(".resToggle").click(function() {
     $(".myTopNav").toggleClass("active");
   });
 
+/*
 let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
 let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
@@ -35,3 +36,4 @@ fetch(source)
             $($content).append($title, $text)       
      }
  }
+ */
