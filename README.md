@@ -1,4 +1,4 @@
-# Portfolio
+# [Portfolio](https://carlynicholson.github.io/portfolio/)
 
 ## Overview
 This project was created to be my digital portfolio.

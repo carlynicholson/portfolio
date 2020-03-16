@@ -1,5 +1,9 @@
 /* CARDS */
 
+ul.deck {
+  width: 100%;
+}
+
 .card-btn {
   font-family: "Quicksand";
   background-color: black;
@@ -26,6 +30,15 @@
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  align-items: stretch;
+}
+
+a.project-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 275px;
+  align-content: stretch;
 }
 
 .card {
@@ -42,13 +55,14 @@
   margin-bottom: 24px;
 }
 
-
-
 .card-content {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  width: 250px;
 }
+
+
 
 .card-image {
   background-position: center;
@@ -57,10 +71,6 @@
   height: 300px;
   width: 100%;
 }
-
-/* #image-1 {
-  background-image: url("https://unsplash.it/800/600?image=59");
-} */
 
 .card-image:hover {
   filter: opacity(85%);
@@ -73,7 +83,7 @@
   color: black;
   font-size: 1.05rem;
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 5px;
@@ -91,11 +101,4 @@
   align-items: center;
   font-size: 0.875rem;
   margin-bottom: 1.25rem;
-}
-
-@media screen and (max-width: 768px) {
-  .deck {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
 }

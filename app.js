@@ -1,6 +1,7 @@
 $(".resToggle").click(function() {
   $(".myTopNav").toggleClass("active");
 });
+
 let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
 let source = `https://spreadsheets.google.com/feeds/list/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/od6/public/values?alt=json`
@@ -16,7 +17,7 @@ fetch(source)
             })
           )
         )
-  .then(array => array.map((obj, i) => `<a href=“${obj.url}“><li class="card"></a>
+  .then(array => array.map((obj, i) => `<a href='${obj.url}' class="project-link"> <li class="card">
   <div class="card-image" style="background-image: url('${obj.image}');"></div>
   <button class="card-btn btn-block">Project ${i + 1}</button>
   <div class="card-content">
@@ -25,10 +26,25 @@ fetch(source)
       ${obj.description}
     </p>
   </div>
-</li>`)
+</li>
+</a>`
 )
+)
+/* console.log(window.location.pathname)
+const home = ('/')
+
+.then(arr => {
+  if (window.location.pathname === home) {
+   return (i + 2)
+  
+  } else {
+  
+    return arr
+  }
+  }) */
 .then(cardsArr => cardsArr.join(' '))
 .then(string => $("ul.deck").append(string))
+
 
 
 
