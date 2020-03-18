@@ -32,11 +32,8 @@ fetch(source)
 )
 .then(arr => {
   if (isHome) {
-console.log("home method")
-console.log(arr.slice(0,3))
    return arr.slice(0,3)
   } else {
-console.log(`your path is: ${window.location.pathname}`)
     return arr
   }
   })
