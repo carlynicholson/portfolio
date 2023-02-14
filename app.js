@@ -8,7 +8,8 @@ let source = `https://docs.google.com/spreadsheets/d/e/2PACX-193Hou07FkHfuSH9Icc
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
 fetch(source)
-  .then(response => response.json()) 
+  .then(data => data.splice(0,-2))
+  .then(res => res.json())
   .then(data =>  data.feed.entry.map(project => ( {
           title: project.gsx$title.$t,
           image: project.gsx$image.$t,
