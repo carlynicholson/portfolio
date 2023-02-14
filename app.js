@@ -7,7 +7,7 @@ let source = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvx
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
 fetch(source)
-  .then(data => data.substring.slice(0, -2))
+  .then(data => data.substring(47).slice(0, -2))
   // .then(response => response.json())
   /*.then(data =>  data.feed.entry.map(project => ( {
           title: project.gsx$title.$t,
