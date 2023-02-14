@@ -8,35 +8,35 @@ const isHome = window.location.pathname === "/portfolio/" || window.location.pat
 
 fetch(source)
   .then(response => response.json())
-  .then(data =>  data.feed.entry.map(project => ( {
-          title: project.gsx$title.$t,
-          image: project.gsx$image.$t,
-          description: project.gsx$description.$t,
-          url: project.gsx$url.$t
-            })
-          )
-        )
-  .then(array => array.map((obj, i) => `<a href='${obj.url}' class="project-link"> <li class="card">
-  <div class="card-image" style="background-image: url('${obj.image}');"></div>
-  <button class="card-btn btn-block">Project ${i + 1}</button>
-  <div class="card-content">
-    <div class="card-title">${obj.title}</div>
-    <p class="card-text">
-      ${obj.description}
-    </p>
-  </div>
-</li>
-</a>`
-)
-)
-.then(arr => {
-  if (isHome) {
-   return arr.slice(0,-3)
-  } else {
-    return arr
-  }
-  })
-.then(cardsArr => cardsArr.join(' '))
+//   .then(data =>  data.feed.entry.map(project => ( {
+//           title: project.gsx$title.$t,
+//           image: project.gsx$image.$t,
+//           description: project.gsx$description.$t,
+//           url: project.gsx$url.$t
+//             })
+//           )
+//         )
+//   .then(array => array.map((obj, i) => `<a href='${obj.url}' class="project-link"> <li class="card">
+//   <div class="card-image" style="background-image: url('${obj.image}');"></div>
+//   <button class="card-btn btn-block">Project ${i + 1}</button>
+//   <div class="card-content">
+//     <div class="card-title">${obj.title}</div>
+//     <p class="card-text">
+//       ${obj.description}
+//     </p>
+//   </div>
+// </li>
+// </a>`
+// )
+// )
+// .then(arr => {
+//   if (isHome) {
+//    return arr.slice(0,-3)
+//   } else {
+//     return arr
+//   }
+//   })
+// .then(cardsArr => cardsArr.join(' '))
 /* .then(string => $("ul.deck").append(string)) */
 .then(string => console.log(string))
 
