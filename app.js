@@ -28,7 +28,7 @@ fetch(source)
 </li>
 </a>`
 )
-)
+)*/
 .then(arr => {
   if (isHome) {
    return arr.slice(0,-3)
@@ -36,8 +36,8 @@ fetch(source)
     return arr
   }
   })
-.then(cardsArr => cardsArr.join(' '))*/
-/* .then(string => $("ul.deck").append(string)) */
+.then(cardsArr => cardsArr.join(' '))
+.then(string => $("ul.deck").append(string))
 .then(string => console.log(string))
 
 
