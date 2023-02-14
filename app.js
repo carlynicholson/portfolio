@@ -7,6 +7,7 @@ let source = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvx
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
 fetch(source)
+  .then(data => data.splice(0,-2))
   .then(response => response.json())
   /*.then(data =>  data.feed.entry.map(project => ( {
           title: project.gsx$title.$t,
@@ -28,7 +29,7 @@ fetch(source)
 </li>
 </a>`
 )
-)*/
+)
 .then(arr => {
   if (isHome) {
    return arr.slice(0,-3)
@@ -37,7 +38,7 @@ fetch(source)
   }
   })
 .then(cardsArr => cardsArr.join(' '))
-// .then(string => $("ul.deck").append(string))
+.then(string => $("ul.deck").append(string)) */
 .then(string => console.log(string))
 
 
