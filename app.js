@@ -37,7 +37,7 @@ fetch(source)
   }
   })
 .then(cardsArr => cardsArr.join(' '))
-// .then(string => $("ul.deck").append(string))
+/* .then(string => $("ul.deck").append(string)) */
 .then(string => console.log(string))
 
 
