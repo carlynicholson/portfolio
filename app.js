@@ -3,7 +3,7 @@ $(".resToggle").click(function() {
 });
 let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
 let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
-let source = `https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/gviz/tq`
+let source = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/gviz/tq'
 // let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
