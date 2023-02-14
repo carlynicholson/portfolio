@@ -8,7 +8,7 @@ const isHome = window.location.pathname === "/portfolio/" || window.location.pat
 
 fetch(source)
   .then(data => data.substring.slice(0, -2))
-  .then(response => response.json())
+  // .then(response => response.json())
   /*.then(data =>  data.feed.entry.map(project => ( {
           title: project.gsx$title.$t,
           image: project.gsx$image.$t,
