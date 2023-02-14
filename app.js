@@ -1,9 +1,9 @@
 $(".resToggle").click(function() {
   $(".myTopNav").toggleClass("active");
 });
-let url = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/edit?usp=sharing'
-let id = '193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4'
-let source = 'https://docs.google.com/spreadsheets/d/193Hou07FkHfuSH9IccJxFxPHvxJdQwwb33kaxianMd4/gviz/tq'
+let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8LlVZmMb3SQBhxB941x5pUDN2HSaQgZYsYD43An5tMFAOOgVf10a0xPcnMlPFleAm5k47Sfvo742A/pubhtml'
+let id = '1vQ8LlVZmMb3SQBhxB941x5pUDN2HSaQgZYsYD43An5tMFAOOgVf10a0xPcnMlPFleAm5k47Sfvo742A'
+let source = 'https://docs.google.com/spreadsheets/d/1vQ8LlVZmMb3SQBhxB941x5pUDN2HSaQgZYsYD43An5tMFAOOgVf10a0xPcnMlPFleAm5k47Sfvo742A/gviz/tq'
 // let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
