@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Shopping Cart App",
+        "image": "images/previews/shopping-cart-app.png",
+        "description": "...",
+        "url": "https://jnd9q.codesandbox.io/"
+    },
+    {
+        "title": "Random Imager",
+        "image": "images/previews/random_imager.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/bGdoZNj"
+    },
+    {
+        "title": "The Knot Challenge",
+        "image": "images/previews/the_knot_challenge.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/MWwOJOg"
+    },
+    {
+        "title": "Responsive Design Challenge",
+        "image": "images/previews/responsive_design.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/jOPmRep"
+    },
+    {
+        "title": "CSS Grid Home Page",
+        "image": "images/previews/grid_homepage.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/eYNVNYR"
+    },
+    {
+        "title": "Instagram Quote",
+        "image": "images/previews/instagram_quote.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/QWbpdWK"
+    },
+    {
+        "title": "Fashion Blog",
+        "image": "images/previews/fashion_blog.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/zYGzRyK"
+    },
+    {
+        "title": "Memory Game",
+        "image": "images/previews/memory_game.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/zYGEyoP"
+    },
+    {
+        "title": "CSS Grid Gallery",
+        "image": "images/previews/image_gallery.png",
+        "description": "...",
+        "url": "https://codepen.io/carlynicholson/full/dyoWXdL"
+    },
+    {
+        "title": "Giphy App",
+        "image": "images/previews/giphy-lab.png",
+        "description": "...",
+        "url": "https://gjhpd.codesandbox.io/"
+    },
+    {
+        "title": "Spaero",
+        "image": "images/previews/spaero.png",
+        "description": "A responsive React app for the purpose of searching for and booking flights",
+        "url": "https://spaero.netlify.app/"
+    },
+    {
+        "title": "COVID-19 Tracker",
+        "image": "images/previews/covid_tracker.png",
+        "description": "A responsive React app to track global COVID-19 spread",
+        "url": "https://novel-covid19.netlify.app/"
+    },
+    {
+        "title": "The People's Voice Project",
+        "image": "images/previews/peoples-voice-project.svg",
+        "description": "Search government reps, upcoming elections, and find polling locations",
+        "url": "https://www.peoplesvoiceproject.com/"
+    },
+    {
+        "title": "Fetch",
+        "image": "images/previews/fetch.png",
+        "description": "Responsive MERN app connecting pet owners with local pet service providers",
+        "url": "https://tryfetch.netlify.app/"
+    },
+    {
+        "title": "Biblio API",
+        "image": "images/previews/biblio-api.png",
+        "description": "An API built using Python and Django to create a personal, digital library",
+        "url": "https://github.com/carlynicholson/biblio-api"
+    }
+]
