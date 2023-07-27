@@ -3,7 +3,7 @@ $(".resToggle").click(function() {
 });
 const isHome = window.location.pathname === "/portfolio/" || window.location.pathname === "/index.html"
 
-fetch('/featured.json')
+fetch('./featured.json')
 .then(data => data.json())
 // .then(data => console.log(Array.isArray(data)))
 .then(featured => featured.map((obj, i) => `<a href='${obj.url}' class="project-link"> <li class="card">
